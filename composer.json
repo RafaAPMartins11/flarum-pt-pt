@@ -1,0 +1,46 @@
+{
+    "name": "rafaapmartins11/flarum-pt-pt",
+    "type": "flarum-extension",
+    "description": "Portuguese language pack.",
+    "homepage": "https://github.com/RafaAPMartins11/flarum-pt-pt",
+    "keywords": ["locale"],
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.8"
+    },
+    "authors": [
+        {
+            "name": "Rafael Martins",
+            "email": "rafaapmartins11@gmail.com"
+        },
+        {
+            "name": "Bernardo Taveira (original author forked)",
+            "email": "bertaveira@gmail.com"
+        }
+    ],
+    "extra": {
+        "flarum-extension": {
+            "title": "Portuguese (pt-PT)",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#00247d",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "pt-PT",
+            "title": "Portuguese"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/RafaAPMartins11/flarum-pt-pt"
+        }
+    ],
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
